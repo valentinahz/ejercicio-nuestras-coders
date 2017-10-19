@@ -1,9 +1,12 @@
+/* Nuestras Coders   */
+
 body{
  font-family: 'Overpass Mono', monospace;	
 }
 h1{
  margin-top: 1vw;   /* espaciado entre el texto y el rectangulo*/
- margin-bottom: 2px;	
+ margin-bottom: 2px;
+ margin-left: 2px;	
 }
 
 .tex1{
@@ -11,55 +14,62 @@ h1{
  margin: 1vw;
  float: left;
  position: absolute;
- margin-left: 8vw;
+ margin-left: 6vw;
  margin-top: 19vw;
+ text-shadow: 2px 0px #923EDB;  
 }
 
 .tex2{
 color: #FFF;
  margin: 1vw;
  position: absolute;
- margin-left: 32vw;
+ margin-left: 30vw;
  margin-top: 19vw;
+  text-shadow: 2px 0px #923EDB; 
 }
 
 .tex3{
 color: #FFF; 
  margin: 1vw;
  position: absolute;
- margin-left: 56vw;
+ margin-left: 54vw;
  margin-top: -72px;
+  text-shadow: 2px 0px #923EDB; 
 }
 
 .tex4{
 color: #FFF; 
  margin: 1vw;
  position: absolute;
- margin-left: 8vw;
+ margin-left: 6vw;
  margin-top:19vw;
+ text-shadow: 2px 0px #923EDB; 
 }
 
 .tex5{
 color: #FFF; 
  margin: 1vw;
  position: absolute;
- margin-left: 32vw;
+ margin-left: 30vw;
  margin-top:19vw;
+ text-shadow: 2px 0px #923EDB; 
 }
 
 .tex6{
 color: #FFF; 
  margin: 1vw;
  position: absolute;
- margin-left: 56vw;
+ margin-left: 54vw;
  margin-top:19vw;
+  text-shadow: 2px 0px #923EDB; 
 }
 
 .rectangle{
 width:300px;               /* rectangulo para subrayado */
  height: 10px;
- background-color: black;
+ background-color: #820B95;
   margin-bottom: 1vw;	   /* margen entre cajas */
+
 }
 
 .square1{
@@ -69,6 +79,7 @@ width:300px;               /* rectangulo para subrayado */
  background-size: 100%; 
  float: left; 
  margin: 1vw;      /* margen entre cajas */
+ border-radius: 30%;
 }
 
 .square2{
@@ -78,6 +89,7 @@ width:300px;               /* rectangulo para subrayado */
  background-size: 100%; 
  float: left;
  margin: 1vw;       /* margen entre cajas */
+ border-radius: 30%;
 }
 
 .square3{
@@ -86,6 +98,7 @@ width:300px;               /* rectangulo para subrayado */
  background-image: url(../img/fotos-animales2.jpg); /* imagen de fondo */
  background-size: 100%;
   margin: 1vw;          /* margen entre cajas */
+  border-radius: 30%;
 }
 
 .square4{
@@ -95,6 +108,7 @@ width:300px;               /* rectangulo para subrayado */
  background-size: 100%; 
  float: left;
  margin: 1vw;  /* margen entre cajas */
+ border-radius: 30%;
 }
 
 .square5{
@@ -104,6 +118,7 @@ width:300px;               /* rectangulo para subrayado */
  background-size: 100%; 
  float: left;
  margin: 1vw;   /* margen entre cajas */
+ border-radius: 30%;
 }
 
 .square6{
@@ -113,5 +128,6 @@ width:300px;               /* rectangulo para subrayado */
  background-size: 100%;
  float: left;
  margin: 1vw;   /* margen entre cajas */
+ border-radius: 30%;
 }
 
